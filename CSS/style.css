@@ -91,6 +91,8 @@ body{
      background-color: #fdf2e9;
 }
 
+
+
 .hero{
     display: grid;
     grid-template-columns: 1fr 1fr;
