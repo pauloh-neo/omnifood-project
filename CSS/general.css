@@ -66,6 +66,19 @@ small: 1.05
     letter-spacing: 0.75px;
 }
 
+.btn--form{
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+}
+
+.btn--form:hover{
+    background-color: #fff;
+    color: #555;
+}
+
+.btn,
 .btn:link,
 .btn:visited{
     display: inline-block;
@@ -76,6 +89,11 @@ small: 1.05
     border-radius: 9px;
     transition: all 0.3s;
     font-weight: 600;
+
+    /* Just necessary for buttons*/
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .btn--full:link,
@@ -193,3 +211,10 @@ strong{
     color: #e67e22;
 }
 
+
+*:focus{
+    outline: none;
+    /* outline: 4px dotted #e67e22;
+    outline-offset: 8px; */
+    box-shadow: 0 0 0 0.8rem rgba(221, 127, 44, 0.50);
+}
